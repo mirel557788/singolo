@@ -1,0 +1,58 @@
+@import "./fonts.css";
+
+html {
+  font-size: 12px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.header,
+.logo {
+  color: #ffffff;
+}
+
+.header-bottom {
+  margin: auto;
+  width: 1020px;
+  height: 6px;
+  display: block;
+  background-color: #323746;
+}
+
+.logo {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.logo__star {
+  color: #eb5055;
+}
+
+.header__navigation {
+  display: inline-block;
+}
+
+.navigation {
+  display: flex;
+}
+
+.wrapper {
+  height: 89px;
+  max-width: 1020px;
+  margin: auto;
+  background-color: #2d303a;
+}
+
+.wrapper-section {
+  max-width: 1020px;
+  margin: auto;
+  height: 600px;
+  background-color: #f06c64;
+}
+
+.slide-arrow {
+  font-size: 40px;
+}
