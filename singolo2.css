@@ -1,0 +1,150 @@
+@import "./fonts.css";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato", Verdana, Tahoma, sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+
+.page-container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.portfolio-block {
+  height: 864px;
+  background-color: #464b5e;
+}
+
+.wrapper {
+  padding: 0 40px 0;
+}
+
+.header {
+  padding: 70px 0 0;
+}
+
+h2,
+h3 {
+  color: #666d89;
+  line-height: 18px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 26px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 9px;
+}
+
+.categoria-tags {
+  width: 294px;
+  display: flex;
+  justify-content: space-around;
+  margin: 9px 0 18px;
+}
+
+.tag {
+  padding: 0px 5px;
+  border-radius: 5px;
+  background-color: #0f0f0f;
+  border: 1px solid #666d89;
+  font-size: 1.2rem;
+  line-height: 22px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.tag-bordered {
+  background-color: #0f0f0f;
+  border-color: #c5c5c5;
+  color: #dedede;
+}
+
+.picture {
+  width: 220px;
+  height: 187px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.picture-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* .picture:nth-child(n + 12) {
+  display: none;
+} */
+
+.portfolio__bottom-line,
+.about-us__bottom-line {
+  margin: 0 auto;
+  width: 1020px;
+  height: 6px;
+}
+
+.about-us__bottom-line {
+  background-color: #ffffff;
+}
+
+.portfolio__bottom-line {
+  background-color: #323746;
+}
+
+.about-us-block {
+  height: 660px;
+  background-color: #f2f2f2;
+  padding-top: 68px;
+}
+
+.persons-container {
+  display: flex;
+}
+
+.person-cell {
+  width: 300px;
+  margin: 45px 0;
+}
+
+.person-cell:nth-child(2n) {
+  margin: 45px 25px 19px;
+}
+
+.photo {
+  width: 295px;
+  height: 290px;
+  margin-bottom: 28px;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  margin-bottom: 22px;
+}
+
+.social-ico-container {
+  width: 158px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ico:hover {
+  background-color: cadetblue;
+  border-radius: 50%;
+}
