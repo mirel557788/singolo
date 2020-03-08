@@ -7,28 +7,80 @@
     <link rel="stylesheet" href="./singolo1.css" />
   </head>
   <body>
-    <header>
+    <header class="header-block">
       <div class="wrapper">
         <a href="#index.html" class="logo">SINGOLO<span class="logo__star">*<span></a>
         <nav class="header__navigation">
           <ul class="navigation">
-            <li>HOME</li>
-            <li>SERVICE</li>
-            <li>PORTFOLIO</li>
-            <li>ABOUT</li>
-            <li>CONTACT</li>
+            <li class="menu-item"><a href="#">home</a></li>
+            <li class="menu-item"><a href="#">services</a></li>
+            <li class="menu-item"><a href="#">portfolio</a></li>
+            <li class="menu-item"><a href="#">about</a></li>
+            <li class="menu-item"><a href="#">contact</a></li>
           </ul>
         </nav>
       </div>
-      <div  class="header-bottom"></div>
+      
     </header>
-    <section class="banner">
-      <div class="wrapper-section">
-        <a class="slide-arrow arrow-left">&lt;</a>
+    <div class="banner">
+      <div class="wrapper-container">
+        <img class="slide-arrow arrow-left" src="./assets/img/arrow-left.png"/>
         <img class="iphone-vertical" src="./assets/img/iphone-vertical.png" alt="">
         <img class="iphone-horisontal" src="./assets/img/iphone-horisontal.png" alt="">
-        <a class="slide-arrow arrow-right">&gt;</a>
+        <img class="slide-arrow arrow-right" src="./assets/img/arrow-right.png"/>
       </div>    
-    </section>
+    </div>
+    <div class="service-container">
+      <div class="wrapper-service-container">
+        <h2 class="service-header">Our Services</h2>
+        <p class="service-container-description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        <div class="service-row">
+          <div class="service-block">
+            <img class="service-ico" src="./assets/img/pen.png">
+            <div class="service-block__data">
+              <div class="service-block__name">Custom Design</div>
+              <div class="service-block-description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</div>
+            </div>
+          </div>
+          <div class="service-block">
+            <img class="service-ico" src="./assets/img/bulb.png"/>
+            <div class="service-block__data">
+              <div class="service-block__name">Inovative Ideas</div>
+              <div class="service-block-description">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</div>
+          </div>
+          </div>
+          <div class="service-block">
+            <img class="service-ico" src="./assets/img/heart.png"/>
+            <div class="service-block__data">
+              <div class="service-block__name">Love Is The Answer</div>
+              <div class="service-block-description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</div>
+             </div>
+          </div>
+        </div>
+        <div class="service-row">
+          <div class="service-block">
+            <img class="service-ico" src="./assets/img/phone.png"/>
+            <div class="service-block__data">
+              <div class="service-block__name">Responsive Layout</div>
+              <div class="service-block-description">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</div>
+            </div>
+          </div>
+          <div class="service-block">
+            <img class="service-ico" src="./assets/img/bubble.png"/>
+            <div class="service-block__data">
+              <div class="service-block__name">24 / 7 Support</div>
+              <div class="service-block-description">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</div>
+            </div>
+          </div>
+          <div class="service-block">
+            <img class="service-ico" src="./assets/img/star.png"/>
+            <div class="service-block__data">
+              <div class="service-block__name">Feel Like A Star</div>
+              <div class="service-block-description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
