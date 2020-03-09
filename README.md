@@ -1,2 +1,1 @@
-# singolo
-repository for singolo tasks
+[singolo](https://mirel557788.github.io/singolo/)
